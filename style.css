@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family:sans-serif ;
+}
+                                     /* design header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 180px 0px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+header img{
+     width: 13%;
+}
+header select{
+    outline: none;
+    background-color: transparent;
+    color: white;
+    padding: 6px 10px 6px 30px;
+    font-size: 15px;
+    margin-right: 20px;
+    border-radius: 2px; 
+
+}
+header select:focus{
+    outline: 1px solid ;
+}
+header .langselect{
+    position: relative;
+}
+header .langselect .fa-globe{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+header a{
+    padding: 8px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #e20813;
+    color: white;
+    border-radius: 5px;
+}
+header a:hover{
+    color: white;
+    text-decoration: none;
+}
+                                    /* /*       dfsection        */
+.fsec {
+    min-height: 100vh;
+    background-image: url(images/EG-en-20230807-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    border-bottom: 8px solid #222;
+    align-items:center;
+    position: relative;
+    border-radius: 8px solid #222;
+    background-color:transparent;
+
+}
+.fsec::before{
+    content:'';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to bottom , #000 ,transparent);
+
+}
+.fsec::after{
+    content:'';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top , #000 ,transparent)
+}
+.fsec div{
+    text-align: center;
+    z-index: 2;
+}
+.fsec h2{
+    font-size: 45px;
+    margin-top: 80px;
+    color: white;
+    line-height: 74.5px;
+    font-weight: 900;
+    letter-spacing: 0;
+
+}
+.fsec h3{
+    font-size: 25px;
+    color: white;
+    margin: 12px 0 16px;
+    font-weight: 500;
+    z-index: 1;
+}
+.fsec p{
+    font-size: 20px;
+    margin: 16px 0px;
+    color: white;
+    font-weight: 500;
+}
+.fsec form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.fsec form input[type="email"]{
+    padding: 12px 50px 12px 5px;
+     width: 45%;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 18px;
+    margin-right: 10px;
+    border-radius: 5px;
+    /* color: rgba(255, 255, 255, 0.7); */
+    background-color:transparent;
+    color: white;
+
+}
+.fsec form button{
+    padding: 10px 30px;
+    font-weight: 600;
+    border: none;
+    background-color: #e20813;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+                                        /* second section */
+.sec2{
+     color: white;
+     border-bottom: 8px solid #222;
+     padding: 40px 180px;
+      text-align: left; 
+}
+.sec2 h3{
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.sec2 p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.sec2 .vidsecdiv{
+    position: relative;    
+}
+
+.sec2 .vidsecdiv  img{
+    width: 450px;
+}
+.sec2 .vidsecdiv  video{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    z-index: -1;;
+}
+                            /* third section */
+
+.imgsec1{
+    color: white;
+    border-bottom: 8px solid #222;
+    padding: 40px 180px;
+    justify-content: space-between;
+   
+}
+.imgsec1 h3{
+    font-size: 43px;
+    font-weight: 600;
+}
+.imgsec1 p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.imgsec1 img{
+     width: 100%; 
+    
+}
+
+
+
+                          /* fourth section */
+                         
+.imgsec{
+     color: white;
+ border-bottom: 8px solid #222;
+padding: 40px 180px;
+}
+
+
+.imgsec h3{
+  font-size: 43px;
+font-weight: 600;
+ }
+
+
+
+.imgsec p{
+ font-size: 24px;
+font-weight: 400;
+ margin-top: 20px;
+  }
+
+
+
+.imgsec img{
+ width: 600px;
+ }
+.sec2 .vidsecdiv  video{
+    position: absolute;
+    width:450px;
+    padding-left:35px;
+    padding-right :18px;
+    z-index: -1;
+}
+                           /* sec five */
+.sec5{
+    color: white;
+    text-align: left;
+    border-bottom: 8px solid #222;
+     /* padding: 40px 180px;  */
+     /* background-color: #e20813; */
+    
+}
+ .sec5text{
+       margin-left: 100px;   
+} 
+.sec5 h3{
+    font-size: 43px;
+font-weight: 600;
+}
+.sec5image img{
+     padding: 50px; 
+    width: 600px;
+    /* padding-right:150px; */
+}    
+.sec5 p{
+    font-size: 24px;
+    font-weight: 400;
+     margin-top: 20px;
+}
+                                                    /* last section */
+.sec6{ 
+    border-bottom: 8px solid #222;
+    padding: 50px 150px;
+   
+} 
+
+.sec6 h3{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin: 50px 0;
+    font-weight: 900;
+}
+
+.list{
+    width: 95%;
+    margin: auto;
+}
+
+.accordion{
+    background-color: #303030;
+    color: white;
+    cursor: pointer;
+    padding: 13px 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.accordion::after{
+ content: '\002b';
+ color: white;
+ float: right;
+ font-size: 40px;
+ margin-left: 5px;
+ 
+}
+
+.active::after{
+    content: '\2212';
+}
+
+
+.panel{
+    background-color: #303030;
+    font-size: 20px;
+    padding: 0 20px;
+    max-height: 0px;
+    color: white;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;
+}
